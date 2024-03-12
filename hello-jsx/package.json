@@ -1,0 +1,24 @@
+{
+  "name": "empty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@zeppos/device-types": "^3.0.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@cuberqaq/asuka-solid": "link:../../AsukaSolid",
+    "@rollup/plugin-babel": "^6.0.4",
+    "babel-preset-solid": "^1.8.15",
+    "solid-js": "^1.8.15"
+  }
+}
