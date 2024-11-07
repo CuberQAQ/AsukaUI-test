@@ -10,22 +10,15 @@
   "type": "module",
   "license": "ISC",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.25.9",
     "@rollup/plugin-node-resolve": "^15.2.3",
-    "@zeppos/device-types": "^3.0.0",
-    "esbuild": "^0.24.0",
-    "rollup": "^4.24.3",
-    "rollup-plugin-esbuild": "^6.1.1",
-    "rollup-plugin-multi-entry": "^2.1.0",
-    "rollup-plugin-typescript2": "^0.36.0",
-    "tslib": "^2.8.1",
-    "typescript": "^5.6.3"
+    "@zeppos/device-types": "^3.0.0"
   },
   "dependencies": {
     "@babel/cli": "^7.23.9",
     "@babel/core": "^7.24.0",
-    "@cuberqaq/asuka-ui": "^1.0.1",
+    "@cuberqaq/asuka-solid": "link:../../AsukaSolid",
     "@rollup/plugin-babel": "^6.0.4",
-    "babel-preset-solid": "^1.8.15"
+    "babel-preset-solid": "^1.8.15",
+    "solid-js": "^1.8.15"
   }
 }

@@ -2,7 +2,9 @@
   "presets": [
     [
       "solid",
-      { "moduleName": "@cuberqaq/asuka-solid", "generate": "universal" }
+      { "moduleName": "@cuberqaq/asuka-ui/solid", "generate": "universal" }
     ]
+  ],
+  "plugins": [
   ]
 }
