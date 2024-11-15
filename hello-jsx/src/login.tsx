@@ -20,7 +20,7 @@ Page({
     render(() => {
       return (
         <stack ali={Alignment.center}>
-          <column mainAxisAlignment={MainAxisAlignment.spaceEvenly} c>
+          <column mainAxisAlignment={MainAxisAlignment.spaceEvenly}>
             <text text="hello world" text_size={20} />
             <text text="hello world1" text_size={80} />
             <text text="hello world2" />
@@ -32,6 +32,7 @@ Page({
     asuka.refreshSync();
   },
 });
+
 
 const App = () => {
   return (
@@ -65,22 +66,22 @@ const App = () => {
         />
       </column>
       <positioned
-        top={px(40)}
-        left={px(40)}
-        w={px(200)}
-        h={px(200)}
+        top={Number(px(40))}
+        left={Number(px(40))}
+        w={Number(px(200))}
+        h={Number(px(200))}
         child={<fillrect color={Color.random()} alpha={128} />}
       />
       <positioned
-        w={px(200)}
-        h={px(200)}
+        w={Number(px(200))}
+        h={Number(px(200))}
         child={<fillrect color={Color.random()} alpha={128} />}
       />
       <positioned
-        bottom={px(40)}
-        right={px(40)}
-        w={px(200)}
-        h={px(200)}
+        bottom={Number(px(40))}
+        right={Number(px(40))}
+        w={Number(px(200))}
+        h={Number(px(200))}
         child={<fillrect color={Color.random()} alpha={128} />}
       />
     </stack>
